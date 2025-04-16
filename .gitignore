@@ -1,0 +1,33 @@
+# Ignore all database files
+*.db
+*.sql
+
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore uploaded files (usually user-generated)
+uploads/
+
+# Ignore environment/config files
+.env
+
+# System and IDE files
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.swp
+
+# Ignore temporary files
+*.tmp
+*.temp
+~*
+
+# Ignore common editor/project folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Optional: lock files (if not needed in version control)
+composer.lock
