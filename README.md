@@ -3,6 +3,9 @@
 ## Overview
 The Document Management System (DMS) is a comprehensive solution designed to streamline the creation, organization, storage, and retrieval of documents. The system supports document creation, approval workflows, dispatch details (such as email or postal dispatch), and more. It provides an intuitive interface for users to manage their documents effectively while ensuring compliance with business requirements and security standards.
 
+## Implementation
+The DMS has been implemented at Synergy Computer Ltd., where it is currently under trial in their Finance Department. The system is being tested to improve document tracking, approval processes, and communication within the department, with the goal of scaling it across other departments once fully validated. The trial phase will help identify any improvements or adjustments needed for smoother operation before full deployment.
+
 ## Features
 ### Document Creation:
 Allows users to create and manage documents efficiently with required metadata such as department, branch, subject, and date.
@@ -39,7 +42,7 @@ Other: Composer for dependency management
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-repository/dms.git
+git clone https://github.com/Document-Management-System/dms.git
 ```
 
 ### Configure the Database:
