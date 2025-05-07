@@ -1142,6 +1142,7 @@ function deleteUser(button) {
 }
 
 // Trigger when department or branch fields are changed
+        /*
         function generateRefNo() {
             const department = document.getElementById('department').value;
             const branch = document.getElementById('sendto').value;
@@ -1162,6 +1163,7 @@ function deleteUser(button) {
         window.onload = function() {
             generateRefNo();
         };
+        */
         function logout() {
             // Make an AJAX request to the server to clear the session
             const xhr = new XMLHttpRequest();
